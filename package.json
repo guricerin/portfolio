@@ -1,6 +1,6 @@
 {
-  "name": "ts-react",
-  "version": "0.1.0",
+  "name": "portfolio",
+  "version": "1.0.0",
   "private": true,
   "homepage": "http://guricerin.github.io/portfolio",
   "dependencies": {
