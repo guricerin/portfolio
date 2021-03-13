@@ -5,7 +5,7 @@ const ViewAbout: React.FC = () => {
     <section className="section">
       <h1 className="title">About</h1>
       <hr />
-      Japanese Software Engineer.
+      ソフトウェアエンジニア guricerin のポートフォリオサイトです.
     </section>
   );
 };
@@ -18,10 +18,11 @@ const ViewFavorites: React.FC = () => {
       <div className="content">
         <ul>
           <li>
-            Musician: B'z, THE YELLOW MONKEY, 凋叶棕, 魂音泉, DEMONDICE ......
-            and more
+            ミュージシャン: B'z, THE YELLOW MONKEY, 凋叶棕, 魂音泉, DEMONDICE ...... and more
           </li>
-          <li>Novelist: 神林長平, 時雨沢恵一 ...... and more</li>
+          <li>
+            作家: 神林長平, 時雨沢恵一 ...... and more
+          </li>
         </ul>
       </div>
     </section>

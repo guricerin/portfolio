@@ -9,58 +9,56 @@ interface Work {
   name: string;
   description: string;
   imgPath: string;
-  repoPath: string;
+  repoUrl: string;
 }
 
 const works: Work[] = [
   {
     name: "shishiro-foods-site",
-    description: "The joke site of Shishiro Botan, Hololive 5th generation.",
+    description: "VTuber 獅白ぼたんの非公認ジョークサイト. ",
     imgPath: shishiroImg,
-    repoPath: "https://github.com/guricerin/shishiro-foods-site",
+    repoUrl: "https://github.com/guricerin/shishiro-foods-site",
   },
   {
     name: "nand2tetris",
-    description:
-      '"The Elements of Computation Systems" code, Chapter 6 - 11 are written by Rust.',
+    description: "『コンピュータシステムの理論と実装』の演習問題回答（6～11章はRustで実装）. ",
     imgPath: bookImg,
-    repoPath: "https://github.com/guricerin/nand2tetris",
+    repoUrl: "https://github.com/guricerin/nand2tetris",
   },
   {
     name: "bf-derivatives-tool",
-    description:
-      "Creating your own Brainfuck derivatives tool, written by Rust.",
+    description: "独自のBrainfuck方言を作成可能なツール. ",
     imgPath: bftImg,
-    repoPath: "https://github.com/guricerin/bf-derivatives-tool",
+    repoUrl: "https://github.com/guricerin/bf-derivatives-tool",
   },
   {
     name: "understanding-computation",
-    description: '"Understanding Computation" code, written by F#.',
+    description: "『アンダースタンディング コンピュテーション』のF#による実装. ",
     imgPath: bookImg,
-    repoPath: "https://github.com/guricerin/understanding-computation",
+    repoUrl: "https://github.com/guricerin/understanding-computation",
   },
   {
     name: "brainfuck",
-    description: "Brainfuck interpreter, written by F#.",
+    description: "BrainfuckインタプリタのF#による実装. ",
     imgPath: bffsharpImg,
-    repoPath: "https://github.com/guricerin/brainfuck",
+    repoUrl: "https://github.com/guricerin/brainfuck",
   },
   {
     name: "FSharp.Scheme",
-    description: "Tiny Scheme interpreter, written by F#.",
+    description: "おもちゃレベルなSchemeインタプリタのF#による実装. ",
     imgPath: fsharpLogo,
-    repoPath: "https://github.com/guricerin/FSharp.Scheme",
+    repoUrl: "https://github.com/guricerin/FSharp.Scheme",
   },
 ];
 
 interface OuterLinkProps {
-  path: string;
+  url: string;
   text: string;
 }
 
 const OuterLink: React.FC<OuterLinkProps> = (props) => {
   return (
-    <a href={props.path} target="_blank" rel="noopener noreferrer">
+    <a href={props.url} target="_blank" rel="noopener noreferrer">
       {props.text}
     </a>
   );
@@ -95,7 +93,7 @@ const WorksPage: React.FC = () => {
                       <div className="content">
                         {work.description}
                         <br />
-                        <OuterLink path={work.repoPath} text="#souce code" />
+                        <OuterLink url={work.repoUrl} text="#source code" />
                       </div>
                     </div>
                   </div>
