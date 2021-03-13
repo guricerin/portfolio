@@ -9,6 +9,7 @@ interface LinkItem {
 const links: LinkItem[] = [
   { path: "/", label: "Home" },
   { path: "/works", label: "Works" },
+  { path: "/career", label: "Career" },
 ];
 
 export const NavBar: React.FC = () => {

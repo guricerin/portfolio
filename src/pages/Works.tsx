@@ -64,12 +64,14 @@ const OuterLink: React.FC<OuterLinkProps> = (props) => {
   );
 };
 
-const WorksPage: React.FC = () => {
+export const WorksPage: React.FC = () => {
   return (
     <div className="container">
       <section className="section">
         <h1 className="title">Works</h1>
-        <hr></hr>
+        <hr />
+        <p>趣味で作成・学習したコード類. </p>
+        <br />
         <div className="columns has-text-centered is-centered">
           <div className="">
             {works.map((work: Work) => (
@@ -107,5 +109,3 @@ const WorksPage: React.FC = () => {
     </div>
   );
 };
-
-export default WorksPage;

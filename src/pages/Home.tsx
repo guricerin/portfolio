@@ -5,7 +5,7 @@ const ViewAbout: React.FC = () => {
     <section className="section">
       <h1 className="title">About</h1>
       <hr />
-      ソフトウェアエンジニア guricerin のポートフォリオサイトです.
+      <p>ソフトウェアエンジニア guricerin のポートフォリオサイトです.</p>
     </section>
   );
 };
@@ -18,10 +18,10 @@ const ViewFavorites: React.FC = () => {
       <div className="content">
         <ul>
           <li>
-            ミュージシャン: B'z, THE YELLOW MONKEY, 凋叶棕, 魂音泉, DEMONDICE ...... and more
+            ミュージシャン: B'z, THE YELLOW MONKEY, 凋叶棕, 魂音泉, DEMONDICE ...... and more.
           </li>
           <li>
-            作家: 神林長平, 時雨沢恵一 ...... and more
+            作家: 神林長平, 時雨沢恵一 ...... and more.
           </li>
         </ul>
       </div>
@@ -29,7 +29,7 @@ const ViewFavorites: React.FC = () => {
   );
 };
 
-const HomePage: React.FC = () => {
+export const HomePage: React.FC = () => {
   return (
     <div className="container">
       <ViewAbout />
@@ -37,5 +37,3 @@ const HomePage: React.FC = () => {
     </div>
   );
 };
-
-export default HomePage;

@@ -3,8 +3,9 @@ import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import { NavBar } from "./components/NavBar";
 import { Footer } from "./components/Footer";
 import { Hero } from "./components/Hero";
-import HomePage from "./pages/Home";
-import WorksPage from "./pages/Works";
+import { HomePage } from "./pages/Home";
+import { WorksPage } from "./pages/Works";
+import { CareerPage } from "./pages/Career";
 import "bulma/css/bulma.css";
 import "./css/sticky-footer.css";
 
@@ -20,6 +21,7 @@ const App: React.FC = () => {
               <Switch>
                 <Route exact path="/" component={HomePage} />
                 <Route exact path="/works" component={WorksPage} />
+                <Route exact path="/career" component={CareerPage} />
               </Switch>
             </div>
           </div>
