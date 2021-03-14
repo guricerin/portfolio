@@ -1,10 +1,6 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-  faTwitter,
-  faGithub,
-  IconDefinition,
-} from "@fortawesome/free-brands-svg-icons";
+import { faTwitter, faGithub, IconDefinition } from "@fortawesome/free-brands-svg-icons";
 import { faBlog } from "@fortawesome/free-solid-svg-icons";
 
 export const Footer: React.FC = () => {

@@ -46,10 +46,7 @@ export const NavBar: React.FC = () => {
           </div>
         </div>
 
-        <div
-          className={`navbar-menu ${isActive ? "is-active" : ""}`}
-          id="navMenu"
-        >
+        <div className={`navbar-menu ${isActive ? "is-active" : ""}`} id="navMenu">
           <div className="navbar-start">
             {links.map((link) => (
               <NavBarItem path={link.path} label={link.label} />
