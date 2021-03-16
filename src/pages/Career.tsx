@@ -26,7 +26,7 @@ const ViewCareer: React.FC = () => {
       workPlace: "職業訓練校",
       descriptions: [
         "情報処理技術についての座学",
-        "トランプゲームのWebアプリを他の訓練生と共に制作",
+        "トランプゲームのWebアプリを他の訓練生とチーム制作",
         "使用言語・ツール等 : Java Servlet, JSP, Apache Tomcat",
       ],
     },
@@ -34,7 +34,7 @@ const ViewCareer: React.FC = () => {
       period: [new Date(2018, 3), null],
       workPlace: "システム開発会社",
       descriptions: [
-        "主に制御系ソフトウェアや業務系Webアプリの開発を行う企業",
+        "主に制御系ソフトウェアの開発を担当",
         "バージョン管理ツール : Subversion + TortoiseSVN",
         "タスク管理ツール : Redmine",
       ],
@@ -98,7 +98,7 @@ const ViewProjects: React.FC = () => {
       <div className="content">
         <p>業務で担当したプロジェクト. </p>
         <section className="section">
-          <table className="table">
+          <table className="table page-body">
             <thead>
               <tr>
                 <th>概要</th>
