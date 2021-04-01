@@ -8,6 +8,7 @@ import { WorksPage } from "./pages/Works";
 import { CareerPage } from "./pages/Career";
 import "bulma/css/bulma.css";
 import "./css/sticky-footer.css";
+import "./css/color.css";
 
 const App: React.FC = () => {
   return (
@@ -17,7 +18,7 @@ const App: React.FC = () => {
           <NavBar />
           <Hero />
           <div className="sf-site-content">
-            <div className="section">
+            <div className="section page-body">
               <Switch>
                 <Route exact path="/" component={HomePage} />
                 <Route exact path="/works" component={WorksPage} />
