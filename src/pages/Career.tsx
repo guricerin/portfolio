@@ -26,7 +26,7 @@ const ViewCareer: React.FC = () => {
       workPlace: "職業訓練校",
       descriptions: [
         "情報処理技術についての座学",
-        "ボードゲーム・ドメモのWebアプリを他の訓練生と共に制作",
+        "ボードゲーム・ドメモのWebアプリを他の訓練生とチーム制作（主にバックエンドを担当）",
         "使用言語・ツール等 : Java Servlet, JSP, Apache Tomcat",
       ],
     },
