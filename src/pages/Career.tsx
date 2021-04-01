@@ -26,12 +26,12 @@ const ViewCareer: React.FC = () => {
       workPlace: "職業訓練校",
       descriptions: [
         "情報処理技術についての座学",
-        "トランプゲームのWebアプリを他の訓練生と共に制作",
+        "ボードゲーム・ドメモのWebアプリを他の訓練生と共に制作",
         "使用言語・ツール等 : Java Servlet, JSP, Apache Tomcat",
       ],
     },
     {
-      period: [new Date(2018, 3), null],
+      period: [new Date(2018, 3), new Date(2021, 4)],
       workPlace: "システム開発会社",
       descriptions: [
         "主に制御系ソフトウェアや業務系Webアプリの開発を行う企業",
