@@ -1,0 +1,15 @@
+baseURL = "https://guricerin.github.io/portfolio/"
+canonifyurls = true # baseurlを強制
+languageCode = "ja"
+title = "guricerin"
+theme = "hyde"
+publishDir = "docs" # for gh-pages
+
+[params]
+description = "portfolio site"
+
+[Menus]
+main = [
+    {Name = "Career", URL = "/career"},
+    {Name = "Works", URL = "/works"},
+]

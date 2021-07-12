@@ -1,0 +1,36 @@
+{{ define "main" -}}
+<div>
+    <h1>Home</h1>
+    <p>ソフトウェアエンジニア guricerin の経歴などを記載しています。</p>
+
+    <h3>Links</h3>
+    <div>
+        <a href="https://github.com/guricerin" target="_blank" rel="noopener noreferrer">GitHub : guricerin</a>
+    </div>
+    <div>
+        <a href="https://twitter.com/guricerin" target="_blank" rel="noopener noreferrer">Twitter : @guricerin</a>
+    </div>
+    <div>
+        <a href="https://guri6cerin.hatenablog.com/" target="_blank" rel="noopener noreferrer">はてなブログ : グリのクソブログ</a>
+    </div>
+</div>
+
+<!-- 投稿記事をリスト表示する箇所 -->
+<!-- <div class="posts">
+    {{ range .Site.RegularPages -}}
+    <article class="post">
+        <h1 class="post-title">
+            <a href="{{ .Permalink }}">{{ .Title }}</a>
+        </h1>
+        <time datetime="{{ .Date.Format " 2006-01-02T15:04:05Z0700" }}" class="post-date">{{ .Date.Format "Mon, Jan 2,2006" }}</time>
+        {{ .Summary }}
+        {{ if .Truncated }}
+        <div class="read-more-link">
+            <a href="{{ .RelPermalink }}">Read More…</a>
+        </div>
+        {{ end }}
+    </article>
+    {{- end }}
+</div> -->
+
+{{- end }}

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>guricerin</title>
+    <link>https://guricerin.github.io/portfolio/</link>
+    <description>Recent content on guricerin</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language><atom:link href="https://guricerin.github.io/portfolio/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Career</title>
+      <link>https://guricerin.github.io/portfolio/career/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://guricerin.github.io/portfolio/career/</guid>
+      <description>2018.03 - 2021.04 M株式会社   業務用Webアプリ  Zend Frameworkで作成されたコードをLaravelに移行 プロジェクト人員 : 3名 コーディングを担当 PHP 7.4, Laravel 6, Vagrant, Docker      iOSアプリ  医療向け超音波画像編集用アプリの開発 プロジェクト人員 : 1名 コーディング、資料作成を担当 C#, Xamarin.iOS      Windowsデスクトップアプリ  某大学某研究室に山岳遭難者捜索用の画像処理ソフトウェアを提供 プロジェクト人員 : 1名 コーディング、資料作成、現場での動作確認を担当 C#, .NET Framework 4.8, WPF, OpenCV 4      Windowsデスクトップアプリ  産業用カメラを搭載したPLCと連携し, ウェハーを載せたテーブルの傾き補正を行う画像処理ソフトウェアの開発 プロジェクト人員 : 1名 コーディング、資料作成、現場での動作確認を担当 C#, .NET Framework 4.8, WinForms, OpenCV 4, MX Component ver.</description>
+    </item>
+    
+    <item>
+      <title>Works</title>
+      <link>https://guricerin.github.io/portfolio/works/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://guricerin.github.io/portfolio/works/</guid>
+      <description>趣味で作成・学習したコード類
+bolic-rs  『Rubyで作る奇妙なプログラミング言語』に掲載されているesolangのRust実装 トークンは絵文字  shishiro-foods-site  VTuber 獅白ぼたんの非公認ジョークサイト  nand2tetris  『コンピュータシステムの理論と実装』の演習問題回答（6～11章はRustで実装）  bf-derivatives-tool  独自のBrainfuck方言を作成可能なツール  understanding-computation  『アンダースタンディング コンピュテーション』のF#による実装  brainfuck  BrainfuckインタプリタのF#による実装  FSharp.Scheme  おもちゃレベルなSchemeインタプリタのF#による実装  </description>
+    </item>
+    
+  </channel>
+</rss>
