@@ -12,10 +12,11 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://guricerin.github.io/portfolio/career/</guid>
-      <description>これまでの経歴
-2018.03 - 2021.04 M株式会社 技術開発部に所属。
+      <description>使用経験のある言語 完成させたプロダクトやアプリに用いた言語に限る。
+左に配置しているものほど書いたコード量は多い。
+ 業務 : C#, C++, PHP, JavaScript, Java 趣味 : Rust, F#, Elm  現在までの経歴 2021.04 -  ニート  2018.03 - 2021.04 M株式会社 社員数40名前後。技術開発部に所属。
 携わった業務は以下の通り。
-  業務用Webアプリ  Zend Frameworkで作成されたコードをLaravelに移行 プロジェクト人員 : 3名 担当業務 : コーディング PHP 7.4, Laravel 6, Vagrant, Docker      iOSアプリ  医療向け超音波画像編集用アプリの開発 プロジェクト人員 : 1名 担当業務 : コーディング、先方との打ち合わせ、資料作成 C#, Xamarin.iOS      Windowsデスクトップアプリ  某大学某研究室に山岳遭難者捜索用の画像処理ソフトウェアを提供 プロジェクト人員 : 1名 担当業務 : コーディング、先方との打ち合わせ、資料作成、共同実験 C#, .NET Framework 4.8, WPF, OpenCV 4      Redmine構築  社内サーバにRedmineをインストールし、進捗管理を円滑化 プロジェクト人員 : 2名 担当業務 : インストール作業、サーバ設定、プラグイン追加 Bitnami Redmine, VMware vSpere 5.</description>
+  業務用在庫管理Webアプリ  Zend Frameworkで作成されたコードをLaravelに移行 プロジェクト人員 : 3名 担当業務 : コーディング PHP 7.4, MySQL 5.7, Laravel 6, Vagrant, Docker      iOSアプリ  医療向け超音波画像編集用アプリの開発 プロジェクト人員 : 1名 担当業務 : コーディング、先方との打ち合わせ、資料作成 C#, Xamarin.iOS      Windowsデスクトップアプリ  某大学某研究室に山岳遭難者捜索用の画像処理ソフトウェアを提供 プロジェクト人員 : 1名 担当業務 : コーディング、先方との打ち合わせ、資料作成、共同実験 C#, .</description>
     </item>
     
     <item>
